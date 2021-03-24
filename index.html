@@ -9,21 +9,17 @@
 
 <body>
     <form action="https://formspree.io/dylanconrad82@gmail.com" method="post">
-        <div class="item">
-            <label for="user-name">Name:</label>
-            <input id="user-name" type="text" name="name">
-        </div>
-        <div class="item">
-            <label for="email">Email:</label>
-            <input id="email" type="text" name="email">
-        </div>
-        <div class="item">
-            <label for="message">Your message:</label>
-            <input id="message" type="textarea" name="msg" rows="20">
-        </div>
-        <div class="item">
-            <button type="submit">Submit</button>
-        </div>
+        <label class="label" for="user-name">Name:</label>
+        <input id="user-name" type="text" name="name">
+        <label for="email">Email:</label>
+        <input id="email" type="text" name="email">      
+        <label for="message">Your message:</label>
+        <textarea
+        id="textarea"
+        name="msg"
+        row="20">
+        </textarea>
+        <button type="submit">Submit</button>
     </form>
 </body>
 </html>
